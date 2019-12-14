@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta name="description" content="">
+    	<meta name="author" content="">
+    	<!--<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico"> -->
+
+    	<title>South Bay Autohaus | {{page.title}}</title>
+    
+    	<!-- Canonical for duplicate site posting -->
+    	<link rel="canonical" href="https://www.autohaussouthbay.com">
+    
+    	<!-- Font Awesome -->
+    	<script src="https://kit.fontawesome.com/b93121e708.js"></script>
+
+    	<!-- CSS -->
+    	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+	</head>
+
+	<body class="text-center">
+
+        {{ content }}
+
+    <!-- Bootstrap JS -->
+    <script src="{{ '/assets/vendor/jquery.min.js' | absolute_url }}"></script>
+    <script src="{{ '/assets/vendor/popper.min.js' | absolute_url }}"></script>
+    <script src="{{ '/assets/vendor/bootstrap.min.js' | absolute_url }}"></script>
+
+    <!-- Newsletter Script Requiring JQuery -->
+    <script type='text/javascript'>
+        $(document).ready(function(){ 
+            $('#mc-embedded-subscribe').click(function(e){
+            $('#success').show();
+        });
+        });
+    </script>
+
+    </body>
+</html>

@@ -1,0 +1,64 @@
+<div class="container-fluid blog-carousel" style="border-style: solid; border-width: 0px 0px 8px 0px; border-color: #FFFFFF">
+  <header>
+    <h3 class="display-3">South Bay Autohaus Blog</h3>
+    <hr class="style1" width="75%">
+  </header>
+  <div id="carouselExampleControls-2" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active"> <!-- Active Item -->
+        <div class="container">
+          <div class="row">
+
+            {% for post in site.categories.blog limit:3 %} 
+            <div class="col blog-slider mb-3 mr-2 ml-2">
+              <h5>{{ post.title }}</h5>
+              <p>{{ post.excerpt | strip_html | truncate: 156 }}</p>
+              <a href="{{ post.url }}" class="btn btn-outline-primary">Read</a>
+            </div>
+            {% endfor %}
+          </div> <!-- Carousel row -->
+      </div>
+    </div> <!-- Carousel Active Item -->
+
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          {% for post in site.categories.blog limit:3 offset: 3 %} 
+          <div class="col blog-slider mb-3 mr-2 ml-2">
+             <h5>{{ post.title }}</h5>
+              <p>{{ post.excerpt | strip_html | truncate: 156 }}</p>
+              <a href="{{ post.url }}" class="btn btn-outline-primary">Read</a>
+          </div>
+          {% endfor %}
+        </div> <!-- Carousel row -->
+      </div>
+    </div> <!-- Carousel item -->
+
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row">
+          {% for post in site.categories.blog limit:3 offset: 6 %} 
+          <div class="col blog-slider mb-3 mr-2 ml-2">
+             <h5>{{ post.title }}</h5>
+              <p>{{ post.excerpt | strip_html | truncate: 156 }}</p>
+              <a href="{{ post.url }}" class="btn btn-outline-primary">Read</a>
+          </div>
+          {% endfor %}
+        </div> <!-- Carousel row -->
+      </div>
+    </div> <!-- Carousel item -->
+  </div> <!-- Carousel inner -->
+  
+    <!-- Name Carousel Controls for data -->
+    <a class="carousel-control-prev" href="#carouselExampleControls-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+  </div> <!-- Carousel controls -->
+  <hr class="style1" width="75%">
+  <button class="btn btn-lg btn-outline-primary mb-3">View All</button>
+</div>  <!-- Carousel container -->

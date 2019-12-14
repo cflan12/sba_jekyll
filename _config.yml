@@ -1,0 +1,43 @@
+name: South Bay Autohaus | San Diego Mercedes-Benz
+email: Contact@autohaussouthbay.com
+
+#twitter_username: 
+
+
+url: http://localhost:4000/ #base hostname & protocol of site
+# url: https://www.autohaussouthbay.com
+# baseurl: /blog #subpath of site, e.g. /blog
+
+# Multilingual
+#lang:
+#  - en
+#  - es
+
+# Sitemap
+#sitemap: 
+
+
+# Load Path only works when not in safe mode, this will not work natively with Github Pages
+# Loads node_modules easily for SASS import
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+# White-list node_modules since directory is excluded by default
+exclude: []
+
+# Remove file extension
+permalink: pretty
+
+# Jekyll Collection
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title 
+  preowned:
+    output: true
+    permalink: /preowned/:title
+  staff:
+    output: true
+    permalink: /staff/:title

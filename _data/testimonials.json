@@ -1,0 +1,22 @@
+reviews: [
+	{	
+		id: "1",
+		comment: "If you have a Mercedes, this is THE place to go. Not only reasonable prices but superior knowledge so they spend far less time fixing the problem. They got right to the issue on my car, fixed it with minimum fuss and I will refer anyone here. Plus they’re super nice."
+	},
+	{	
+		id: "2",
+		comment: "Amazing staff that always goes above and beyond to assist their customers. Their work is absolutely wonderful, thorough and efficient. They also provide preventive work that helps to avoid costly repairs. Prices are very reasonable and they provide extra care items with no charge.  Wonderful professional old fashioned work ethics you rarely see now a days. Wish they would work on all car types aside from Benzes! :)"
+	},
+	{
+		id: "3",
+		comment: "When my Mercedes went out of warranty and I I got my first gigantic repair bill from the dealership I almost sold my car. Brent and the other guys at South Bay Autohaus got the job done for less than half of what the dealership to charge. I've never stopped going back, these guys perform great service and they do it at an affordable price. You can keep a German car after the warranty goes out if you take it to these guys!"
+	},
+	{
+		id: "4",
+		comment: "Bought a used C230 MB from this shop almost 7 years ago and have felt like part of the family ever since!! Keeping an older car running can be a chore but South Bay Autohaus makes it easy. Repairs are fully explained, done at a fair price and accomplished within the time promised. Not only do they excel in their MB expertise, the customer service is amazing! Whether you talk to Gary, Rick, Alex or Brent, you get friendly, professional service and the confidence that your car is in good hands. With any luck my MB will be on the road for many more years to come and I'll have South Bay Autohaus to thank!"
+	},
+	{
+		id: "5",
+		comment: "I have been taking my car to South Bay Autohaus for many years. The excellent customer service that is provided by Brent and Gary makes me want to come back. Gary and Rick are very honest and reliable. I would recommend them to anyone that owns a Mercedes."
+	}
+]

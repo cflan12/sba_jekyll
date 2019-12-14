@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+/* $font-title: */
+/* $font-content: */
+/* $font-bold: */
+
+$playfair-display: 'Playfair Display', serif;
+
+$source-sans: 'Source Sans Pro', sans-serif;
+
+h1, h2, h3, h4, h5 {
+  font-family: $playfair-display;
+}
+
+p, li, nav, a {
+  font-family: $source-sans;
+}
+
+
+

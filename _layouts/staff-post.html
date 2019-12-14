@@ -1,0 +1,20 @@
+---
+layout: default
+categories: staff
+---
+
+<div class="container staff-post text-left">
+	<h1 class="text-center pt-3 pb-3">{{page.title}}</h1>
+	<hr class="style1" width="75%">
+	{{ content }}
+</div>
+
+<div class="container text-center">
+	<a href="{{ site.url }}/staff" class="btn btn-lg btn-outline-primary m-2">View All Staff</a>
+</div>
+
+{% include main-content-footer.html %}
+
+{% include call-to-action.html %}
+
+{% include newsletter.html %}

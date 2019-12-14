@@ -1,0 +1,30 @@
+---
+layout: default
+title: Mercedes-Benz Blog
+headline:
+picture:
+---
+
+<div class="container-fluid staff-main text-left">
+	<h1 class="text-center pt-3 pb-3">{{ page.title }}</h1>
+	<hr class="style1" width="75%">
+
+	{% for post in site.categories.blog %}
+	<article>
+	<div class="card mb-3">
+  		<!--<img class="card-img-top" src="..." alt="Card image cap"> -->
+  		<div class="card-body">
+    		<h5 class="card-title">{{ post.title }}</h5>
+    		<p class="card-text">{{ post.excerpt | strip_html | truncate: 256 }}</p>
+    		<a href="{{ post.url }}" class="btn btn-outline-primary">Read</a>
+  		</div>
+	</div>
+	</article>
+	{% endfor %}
+</div>
+
+{% include main-content-footer.html %}
+
+{% include call-to-action.html %}
+
+{% include newsletter.html %}
