@@ -8,7 +8,9 @@ var paths = {
 	jquery_map: 'node_modules/jquery/dist/jquery.min.map',
 	popperjs: 'node_modules/popper.js/dist/umd/popper.min.js',
 	popperjs_map: 'node_modules/popper.js/dist/umd/popper.min.js.map',
-	vendor: 'assets/vendor/'
+	fontawesome_fonts: 'node_modules/@fortawesome/fontawesome-free/webfonts/*',
+	vendor: 'assets/vendor/',
+	fonts: 'assets/webfonts/'
 };
 
 gulp.task('assets', function() {
@@ -18,6 +20,7 @@ gulp.task('assets', function() {
 	var jquery_map = gulp.src(paths.jquery_map).pipe(gulp.dest(paths.vendor));
 	var popper = gulp.src(paths.popperjs).pipe(gulp.dest(paths.vendor));
 	var popper_map = gulp.src(paths.popperjs_map).pipe(gulp.dest(paths.vendor));
+	var fontawesome = gulp.src(paths.fontawesome_fonts).pipe(gulp.dest(paths.fonts));
 
-	return merge(bootstrap, bootstrap_map, jquery, jquery_map, popper, popper_map);
+	return merge(bootstrap, bootstrap_map, jquery, jquery_map, popper, popper_map, fontawesome);
 });
