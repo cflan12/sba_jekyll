@@ -10,27 +10,27 @@ layout: page
 <p>If you are looking for directions to South Bay Autohaus depending on your location in San Diego you can visit <a href="{{ site.url }}/directions">here</a>.</p>
 
 <div class="contact-page-form container-fluid">
-	<form>
+	<form action="https://formspree.io/mrgezqwn" method="POST">
     	<div class="form-group row justify-content-center">
       		<div class="col-sm-6">
-        		<input type="text" class="form-control" id="formName" placeholder="Name">
+        		<input type="text" class="form-control" id="formName" name="Name" placeholder="Name">
       		</div>
     	</div>
     	<div class="form-group row justify-content-center">
       		<div class="col-sm-6">
-        		<input type="text" class="form-control" id="formEmail" placeholder="Email">
+        		<input type="text" class="form-control" id="formEmail" name="Email" placeholder="Email">
       		</div>
     	</div>
     	<div class="form-group row justify-content-center">
       		<div class="col-sm-6">
-        		<input type="text" class="form-control" id="formPhone" placeholder="Phone">
+        		<input type="text" class="form-control" id="formPhone" name="Phone" placeholder="Phone">
       		</div>
     	</div>
     	<div class="form-group row justify-content-center">
       		<div class="col-sm-6">
-        		<textarea class="form-control" rows="6" id="formComment" placeholder="Message"></textarea>
+        		<textarea class="form-control" rows="6" id="formMessage" name="Message" placeholder="Message"></textarea>
       		</div>
     	</div>
-    	<button type="submit" class="btn btn-lg btn-primary mb-3" role="button">Send</button>
+    	<button type="submit" value="Send" class="btn btn-lg btn-primary mb-3" role="button">Send</button>
     </form>
 </div>
