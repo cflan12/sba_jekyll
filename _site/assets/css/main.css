@@ -6117,6 +6117,8 @@ p, li, nav, a { font-family: "Source Sans Pro", sans-serif; }
 
 footer { background-color: #0B2A75; color: #FFFFFF; border-style: solid; border-width: 8px 0px 0px 0px; border-color: #FFFFFF; }
 
+footer a { color: #FFFFFF; }
+
 body { text-align: center; }
 
 .banner-container { background-color: #0B2A75; color: #FFFFFF; }
