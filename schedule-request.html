@@ -16,7 +16,7 @@ layout: page
     </div>
     <div class="form-group row justify-content-center">
       <div class="col-sm-6">
-        <input type="text" class="form-control" id="formEmail" name="Email" placeholder="Email">
+        <input type="text" class="form-control" id="formEmail" name="_replyto" placeholder="Email">
       </div>
     </div>
     <div class="form-group row justify-content-center">
@@ -49,6 +49,7 @@ layout: page
         <textarea class="form-control" rows="6" id="formNotes" name="Notes" placeholder="Notes"></textarea>
       </div>
     </div>
+    <input type="hidden" name="_subject" value="Schedule Request"/>
     <button type="submit" value="Send" class="btn btn-lg btn-primary mb-3" role="button">Schedule Now</button>
     </form>
 </div>
