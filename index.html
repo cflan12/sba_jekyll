@@ -11,23 +11,48 @@ layout: default
 
 {% include testimonials-carousel.html %}
 
-  <div class="container-fluid about-container">
-    <header class="masthead mb-auto p-2">
-      <h3 class="display-3">Mercedes-Benz<br>Service &amp; Repair</h3>
-      <hr class="style1" width="75%">
-    </header>
-    <!-- ADD DIV CLASS CONTAINER PADDING -->
-		<p class="lead text-justify">South Bay Autohaus is the leading Independent Service &amp; Repair Facility for Mercedes Benz Vehicles in San Diego. We offer quality Sales, Parts, Service & Repair. We have been family owned for over 25 years and have serviced San Diego Mercedes Benz owners with a commitment to trust, integrity and honesty.</p>
-    <p class="lead text-justify">Our Mercedes-Benz vehicle technicians are highly trained and skilled to perform all maintenance and service work. Our in-house parts department allows us to complete your Mercedes Benz service often the same day for your convenience.</p>
-    <p class="lead text-justify">Our selection of Pre-Owned Mercedes Benz vehicles are of the highest quality in San Diego. Each vehicle is fully serviced and inspected prior to display on our showroom to meet the highest level of standards and excellence Mercedes Benz owners’ expect.</p>
-    <p class="lead text-justify">If you are buying a new Mercedes Benz, contact us regarding our trade-in purchase program that will allow you to maximize the value of your previously owned Mercedes Benz.</p>
-    <p class="lead text-justify">South Bay Autohaus is your Mercedes Benz solution in San Diego. Follow us on our social media channels and subscribe to our newsletter to stay connected to South Bay Autohaus promotions and news.</p>
-  </div> 
+<div class="container-fluid about-container">
+  <header class="masthead mb-auto p-2">
+    <h3 class="display-3">Mercedes-Benz<br>Service &amp; Repair</h3>
+    <hr class="style1" width="75%">
+  </header>
+  <!-- ADD DIV CLASS CONTAINER PADDING -->
+	<p class="lead text-justify">South Bay Autohaus is the leading Independent Service &amp; Repair Facility for Mercedes Benz Vehicles in San Diego. We offer quality Sales, Parts, Service & Repair. We have been family owned for over 25 years and have serviced San Diego Mercedes Benz owners with a commitment to trust, integrity and honesty.</p>
+  <p class="lead text-justify">Our Mercedes-Benz vehicle technicians are highly trained and skilled to perform all maintenance and service work. Our in-house parts department allows us to complete your Mercedes Benz service often the same day for your convenience.</p>
+  <p class="lead text-justify">Our selection of Pre-Owned Mercedes Benz vehicles are of the highest quality in San Diego. Each vehicle is fully serviced and inspected prior to display on our showroom to meet the highest level of standards and excellence Mercedes Benz owners’ expect.</p>
+  <p class="lead text-justify">If you are buying a new Mercedes Benz, contact us regarding our trade-in purchase program that will allow you to maximize the value of your previously owned Mercedes Benz.</p>
+  <p class="lead text-justify">South Bay Autohaus is your Mercedes Benz solution in San Diego. Follow us on our social media channels and subscribe to our newsletter to stay connected to South Bay Autohaus promotions and news.</p>
 
- {% include newsletter.html %}
+  <!-- Newsletter layout template  -->
+  <header class="masthead mb-auto pt-2">
+    <h3 class="display-3">Subscribe To Our Newsletter</h3>
+    <hr class="style1" width="75%">
+  </header>
+  <form action="https://autohaussouthbay.us7.list-manage.com/subscribe/post?u=0e1dcf2b878f5d58ee0c76bdc&amp;id=3eb892c48e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="row justify-content-center">
+      <div class="col-sm-4">
+        <input type="text" value="" name="EMAIL" class="form-control required class" placeholder="Email" id="mce-EMAIL">
+      </div>
+      <div class="col-sm-4">
+        <input type="text" value="" name="FNAME" class="form-control required-class" placeholder="Name" id="mce-FNAME">
+      </div>
+    </div>    
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0e1dcf2b878f5d58ee0c76bdc_3eb892c48e" tabindex="-1" value=""></div>
+      <div class="mt-3 alert alert-success" id="success" style="display:none">
+        <p class="lead">Thank You For Subscribing!</p>
+      </div>
+      <input class="btn btn-primary btn-lg active m-3" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+  </form>
 
- {% include social-banner.html %}
+  
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
- {% include blog-carousel.html %}
+</div> 
 
- {% include map.html %}
+{% include social-banner.html %}
+
+{% include blog-carousel.html %}
+
+{% include map.html %}

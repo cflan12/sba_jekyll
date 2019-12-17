@@ -6173,6 +6173,9 @@ body { text-align: center; }
 
 .blog-post h5 { padding-bottom: 0.5rem !important; padding-top: 0.5rem !important; }
 
+/* card post for blog and staff */
+.card { background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
+
 .carousel-control-prev-icon, .carousel-control-next-icon { height: 100px; width: 100px; outline: black; background-size: 100%, 100%; border-radius: 50%; /* border: 1px solid black; */ /* background-image: none; */ }
 
 .carousel-control-next-icon:after { /* content: '>'; */ font-size: 55px; color: red; }

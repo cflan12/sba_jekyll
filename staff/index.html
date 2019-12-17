@@ -9,7 +9,7 @@ picture:
 	<h1 class="text-center pt-3 pb-3">{{ page.title }}</h1>
 	<hr class="style1" width="75%">
 
-	{% for staff in site.categories.staff %}
+	{% for staff in site.categories.staff reversed %}
 	<div class="card mb-3">
   		<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
   		<div class="card-body">
