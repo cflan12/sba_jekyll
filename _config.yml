@@ -41,3 +41,6 @@ collections:
   staff:
     output: true
     permalink: /staff/:title
+
+# Include for Netlify Redirects for site build
+include: [_redirects]
