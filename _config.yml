@@ -4,8 +4,7 @@ email: Contact@autohaussouthbay.com
 #twitter_username: 
 
 
-url: http://localhost:4000/ #base hostname & protocol of site
-# url: https://www.autohaussouthbay.com
+url: https://www.autohaussouthbay.com #base hostname & protocol of site
 # baseurl: /blog #subpath of site, e.g. /blog
 
 # Multilingual
